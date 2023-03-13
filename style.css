@@ -1,0 +1,444 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f1f1f1;
+}
+
+header {
+    background-color: #666666;
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+/* header drop down menu*/
+/* container for dropdown menu */
+.header-dropdown {
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    border-radius: 5px;
+    border: solid grey;
+    background-color: #666666;
+}
+/* dropdown button */
+.header-dropbtn {
+    background-color: #666666;
+    color: white;
+    font-size: 22px;
+    border: none;
+    padding: 20px;
+}
+
+/* dropdown content (hidden by default) */
+.header-dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    background-color: whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* links inside the dropdown */
+.header-dropdown-content a {
+    color: #666666;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* change color of dropdown links on hover */
+.header-dropdown-content a:hover {background-color: #e5e7e9;}
+
+/* show the dropdown menu on hover */
+.header-dropdown:hover .header-dropdown-content {display: block;}
+
+/* change the background color of the dropdown button when the dropdown content is shown */
+.header-dropdown:hover .header-dropbtn {background-color: grey;}
+
+/* navigation bar*/
+nav {
+    background-color: #666666;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* navigation bar drop down menu*/
+/* container for navigation bar menu item */
+.nav-item{
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #666666;
+}
+
+/* navigation bar button */
+.nav-button {
+    background-color: #666666;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: solid grey;
+    #border: none;
+    padding: 10px;
+}
+
+/* dropdown content (hidden by default) */
+.nav-dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: left;
+    font-size: 20px;
+    background-color: whitesmoke;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* links inside the dropdown */
+.nav-dropdown-content a {
+    color: #666666;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* change color of dropdown links on hover */
+.nav-dropdown-content a:hover {background-color: #e5e7e9;}
+
+/* show the dropdown menu on hover */
+.nav-item:hover .nav-dropdown-content {display: block;}
+
+/* change the background color and font color of the button when the dropdown content is shown */
+.nav-item:hover .nav-button {background-color: #f1f1f1; color: #666666}
+
+/* link inside button */
+.nav-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* change color of link inside button on hover */
+.nav-button a:hover {color: #666666;}
+
+#searchbox {
+    width: 400px;
+    border-radius: 5px;
+    padding: 10px;
+    border: solid thin grey;
+    font-size: 20px;
+    color: #666666;
+    text-align: left;
+}
+
+#searchbtn {
+    background-color: #666666;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid grey;
+}
+
+
+
+section {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.sec-container-dark {
+    background-color: grey;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 0;
+    border-radius: 10px;
+    border: solid grey;
+    width: 95%;
+    padding: 30px;
+}
+
+.sec-container-light {
+    background-color: #f1f1f1;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin-left: 0;
+    border-radius: 10px;
+    border: solid thin grey;
+    width: 95%;
+    padding: 30px;
+}
+
+.sec-item {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    border: solid grey;
+    background-color: grey;
+}
+
+.sec-container-light a {
+    font-size: 20px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* section button */
+.sec-button-light {
+    background-color: #f1f1f1;
+    color: #666666;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+.sec-button-dark {
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+/* link inside button */
+.sec-button-light a {
+    color: #666666;
+    text-decoration: none;
+}
+
+.sec-button-dark a {
+    color: #666666;
+    text-decoration: none;
+}
+
+/* change the background color and font color of the button on hover */
+.sec-item:hover .sec-button-light {background-color: dimgrey;}
+
+.sec-item:hover .sec-button-dark {background-color: #f1f1f1;}
+
+/* change color of link inside button on hover */
+.sec-button-light a:hover {color: white;}
+
+.sec-button-dark a:hover {color: #666666;}
+
+/*question box inside sec-container*/
+.questionbox{
+    color: #666666;
+    font-size: 20px;
+    background-color: navajowhite;
+    border-radius: 5px;
+    border: solid thin grey;
+    padding: 10px;
+}
+
+.questionbox p{
+    color: #666666;
+    font-size: 20px;
+}
+
+.questiondatabox{
+    color: darkgoldenrod;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+}
+
+.questiondatabox p{
+    color: darkgoldenrod;
+    font-size: 16px;
+}
+
+
+/*answer box inside sec-container*/
+.answerbox{
+    color: #666666;
+    font-size: 20px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: solid thin grey;
+    padding: 10px;
+}
+
+/*paragraph inside answerbox*/
+.answerbox p{
+    color: #666666;
+    font-size: 20px;
+}
+
+
+.answerdatabox{
+    color: darkgoldenrod;
+    text-align: left;
+    font-size: 16px;
+    display: inline-block;
+    border: none;
+}
+
+.answerdatabox p{
+    color: darkgoldenrod;
+    font-size: 16px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#buttonform{
+    text-align: left;
+    display: inline-block;
+    margin-left: 0;
+    padding: 0;
+}
+
+#thumpupbtn {
+    background-color: #666666;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: solid grey;
+}
+
+#bestAnsbtn {
+    background-color: #666666;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: solid grey;
+}
+
+#editbtn {
+    background-color: #666666;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: solid grey;
+}
+
+#resolvedbtn {
+    background-color: #666666;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: solid grey;
+}
+
+/* small container for input forms */
+.smallbox {
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
+    border: solid thin grey;
+    padding: 30px;
+}
+
+/* large container for input forms */
+.largebox {
+    background-color: #f1f1f1;
+    margin: auto;
+    width: 90%;
+    border-radius: 10px;
+    border: solid thin grey;
+    padding: 30px;
+}
+
+/* input form elements */
+form {
+    text-align: left;
+    padding: 0;
+}
+
+.label {
+    width: 100%;
+    font-size: 22px;
+    color: #666666;
+}
+
+.textbox {
+    height: 25px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin grey;
+    font-size: 22px;
+    color: #666666;
+    text-align: left;
+    vertical-align: top;
+}
+
+.answertextbox {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin grey;
+    font-size: 22px;
+    color: #666666;
+}
+
+.multilinetextbox {
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin grey;
+    font-size: 22px;
+    color: #666666;
+}
+
+
+
+.button {
+    background-color: #666666;
+    width: 100px;
+    font-size: 22px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid grey;
+}
+
+/* serachbox and search button */
+
+
+select {
+    height: 40px;
+    width:100%;
+    font-size: 22px;
+    color: #666666;
+    border-radius: 5px;
+    border: solid thin grey;
+}
+
+.optdivider {
+    background-color: #666666;
+    color: white;
+}
+
+
+/* messages */
+.regularMsg {
+    font-size: 22px;
+    color: #666666;
+}
+
+.warningMsg {
+    font-size: 22px;
+    color: red;
+}
