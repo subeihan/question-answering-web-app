@@ -1,13 +1,12 @@
-<h1 style="text-align: center"> 
-    question-answering-web-app
-</h1>
-
+<h2 style="text-align: center"> 
+    Web-Based Application for Questions and Answers
+</h2>
 <h2 style="text-align: center">
     Expertise
 </h2>
 
 ### Introduction
-This is a web-based system for a question answering service, similar to Stack
+This is a web-based application for browsing, searching and posting questions and answers, similar to Stack
 Overflow, Yahoo Answers, Baidu zhidao, or even piazza. This is a final project for the Principles of Databases Systems course.
 
 ### Features
