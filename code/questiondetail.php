@@ -47,7 +47,7 @@ $username = $userdata["username"];
                     $qusername = $row["username"];
 
                     echo "<h1>$qtitle";
-                    // show "Resolved" if the question was marked as resolved
+                    // show "Resolved" if the question has been marked as resolved
                     if ($isResolved){
                         echo "<span style =\"font-size:22px; color:darkblue\"> *Resolved</span>";
                     }

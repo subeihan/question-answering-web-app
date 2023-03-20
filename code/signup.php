@@ -45,14 +45,14 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])){
             $stmt->execute();
             $stmt->bind_result($email);
 
-            //give a message and refresh if email has been used
+            // give a message and refresh if email has been used
             if ($stmt->fetch()) {
                 $stmt->close();
                 $conn->close();
                 echo "<div class=\"warningMsg\">This email has already been used.</div>";
                 header("refresh: 3");
             }
-            else{//insert data if email has not been used
+            else{// insert data if email has not been used
                 $stmt->close();
                 $query = "INSERT INTO Users(username, email, upassword, city, state, country, uprofile) 
                                 values (?, ?, ?, ?, ?, ?, ?)";

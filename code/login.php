@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])){
         $in_email= $_POST["email"];
         $in_password= $_POST["password"];
 
-        //check if the combination of the email and password exist.
+        //check if the combination of the email and password exists
         $query = "SELECT uid, username, upassword FROM Users WHERE email = ?";
         if ($stmt = $conn->prepare($query)) {
             $stmt->bind_param("s", $in_email);

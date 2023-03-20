@@ -44,7 +44,7 @@ $username = $userdata["username"];
                 $stmt->close();
             }
         }
-        else if(isset($_GET["uid"])){//get question by uid for my question query by the current user
+        else if(isset($_GET["uid"])){//get question by the current user for my question query
             // users will not be able to see the page belong to another user by changing the ?uid= parameter
             if ($_GET["uid"] == $uid){
                 echo "<div style=\"font-size:30px; color: #666666;\">My Question(s)</div> <br> <br>";

@@ -25,13 +25,12 @@ $username = $userdata["username"];
     <div class="sec-container-light">
         <?php
 
-        // show prefilled question title and question body
         if(isset($_GET["qid"]) && isset($_GET["quid"])){
             if ($_GET["quid"] == $uid) {// make sure that the current user is only allowed to edit his/her own question
                 $in_qid = $_GET["qid"];
                 $in_quid = $_GET["quid"];
 
-                // update tuple of the question with updated question title or question body
+                // update tuple of the question with new question title or question body
                 if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])){
                     if(isset($_POST["qtitle"]) && isset($_POST["qbody"])){
                         $in_qtitle= $_POST["qtitle"];

@@ -17,7 +17,7 @@
             }
         }
 
-        //redirect to login page
+        //redirect to the login page
         header("Location: login.php");
         exit;
     }

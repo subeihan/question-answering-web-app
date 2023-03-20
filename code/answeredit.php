@@ -48,7 +48,8 @@ $username = $userdata["username"];
                         $qusername = $row["username"];
                         $abody = $row["abody"];
 
-                        // show question details so that the current user is able to see the question while editing the answer
+                        // show question details so that the current user is able to see the question while
+                        // editing the answer
                         echo "<div class=\"questionbox\">";
                         echo "<a href=\"questiondetail.php?qid=$qid\">$qtitle</a> <br>";
                         echo "<div class=\"questiondatabox\">";

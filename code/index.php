@@ -84,7 +84,7 @@ $username = $userdata["username"];
                 if ($isBestAns){
                     echo "<p style=\"color:darkgoldenrod\"><b>Best Answer </b></p>";
                 }
-                // show number of thumpups
+                // show number of thumbs-up
                 echo "<p style=\"color:darkblue\"><b>Thumbs-ups $thumbsups</b></p>";
                 echo "</div>";
 

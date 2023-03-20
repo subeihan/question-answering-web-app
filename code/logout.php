@@ -12,7 +12,6 @@
     <h2> Expertise</h2>
 </header>
 
-
 <?php
 ob_start();
 session_start();

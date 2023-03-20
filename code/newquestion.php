@@ -46,7 +46,7 @@ $username = $userdata["username"];
         }
         ?>
 
-        <!-- form for new question posting-->
+        <!-- form for new question-->
         <form method="POST">
             <div style="font-size:30px; color: #666666;">Question</div> <br> <br>
             <?php

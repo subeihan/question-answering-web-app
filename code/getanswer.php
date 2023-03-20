@@ -25,8 +25,8 @@ $username = $userdata["username"];
     <div class="sec-container-light">
         <?php
         if(isset($_GET["uid"])){
-            if ($_GET["uid"] == $uid){//get answers by uid for answers posted by the current user
-                // Users will not be able to see the page belonging to another user by changing the ?uid= parameter
+            if ($_GET["uid"] == $uid){//get answers posted by the current user
+                // users will not be able to see the page belonging to another user by changing the ?uid= parameter
                 echo "<div style=\"font-size:30px; color: #666666;\">My Answer(s)</div> <br> <br>";
                 $query = "SELECT qid, qtitle, aid, abody, adate, atime, count(tuid) as thumbsups, isBestAns
                       FROM Question NATURAL JOIN Answer NATURAL LEFT OUTER JOIN Thumbsup

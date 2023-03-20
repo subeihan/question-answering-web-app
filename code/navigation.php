@@ -21,6 +21,7 @@
         <button class="nav-button">Browse Topics</button>
         <div class="nav-dropdown-content">
             <?php
+            // show query results of top-level topics from backend database
             if ($stmt = $conn->prepare("SELECT * FROM Category")) {
                 $stmt->execute();
                 $stmt->bind_result($cid, $cname);

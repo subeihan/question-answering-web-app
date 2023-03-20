@@ -33,7 +33,7 @@ $username = $userdata["username"];
                 $country = $userdata["country"];
                 $uprofile = $userdata["uprofile"];
 
-                // update users tuple with updated information
+                // update users tuple with new information
                 if($_SERVER['REQUEST_METHOD'] == "POST" && isset($_POST["submit"])){
                     if(isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["city"])
                         && isset($_POST["state"]) && isset($_POST["country"])){

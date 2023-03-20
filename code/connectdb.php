@@ -6,7 +6,7 @@ $dbpass = "Root@202202";
 $dbname = "projectsampledata";
 $dbport = "3306";
 
-$conn = new mysqli($dbhost, $dbuser, $dbpass,$dbname, $dbport);
+$conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname, $dbport);
 
 //check connection
 if (mysqli_connect_errno()) {

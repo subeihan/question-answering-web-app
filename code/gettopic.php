@@ -44,7 +44,7 @@ $username = $userdata["username"];
                                 </button>
                            </div>";
                 }
-                $stmt->close();;
+                $stmt->close();
             }
         }
         else {
